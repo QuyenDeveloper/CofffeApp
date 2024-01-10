@@ -1,0 +1,38 @@
+/* Add this to your CSS file */
+.memo-container {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .memo-container th, .memo-container td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: black; /* Add this line to change text color to black */
+  }
+  
+  .memo-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .memo-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .memo-container tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  .table-reverse tbody {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .scrollable-tbody {
+    max-height: 240px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  /* .table-reverse tbody tr {
+    display: block;
+  } */
